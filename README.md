@@ -1,2 +1,2 @@
 # robotics_kit_code
-Code for my robotics kit
+Code for my upcoming robotics kit. Read more about this project [here](https://lukecampbell5853.github.io/projects/robot_kit/).
