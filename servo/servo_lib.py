@@ -24,10 +24,10 @@ class servo:
             self.pin.duty_u16(step)
             sleep(0.01)
             self.pos = step
-            if self.pos == self.loc-50 or self.pos == self.loc+50:
+            if abs(self.pos - self.loc) < 51:
                 self.moving = False
                 break
     
     def wait(self):
         while self.moving:
-            pass
+            sleep(0.01)
